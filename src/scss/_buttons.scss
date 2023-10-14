@@ -60,3 +60,36 @@ a {
     line-height: 16px;
   }
 }
+
+
+svg.octicon-git-commit {
+  color: rgb(101, 109, 118);
+}
+
+svg.octicon-git-merge { 
+  color: rgb(130, 80, 223);
+}
+
+svg.octicon-git-pull-request { 
+  color: rgb(26, 127, 55);
+}
+
+svg.octicon-git-pull-request-closed {
+  color: rgb(209, 36, 47);
+}
+
+svg.octicon-git-pull-request-draft { 
+  color: rgb(101, 109, 118);
+}
+
+svg.octicon-issue-closed {
+  color: rgb(130, 80, 223);
+}
+
+svg.octicon-issue-opened {
+  color: rgb(26, 127, 55);
+}
+
+svg.octicon-repo { 
+  color: rgb(101, 109, 118);
+}
