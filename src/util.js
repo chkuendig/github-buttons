@@ -23,7 +23,11 @@ export const createElementInDocument = function (document) {
     }
     if (children != null) {
       forEach(children, function (child) {
-        el.appendChild(typeof child === 'string' ? document.createTextNode(child) : child)
+        if(typeof child === 'string'){
+          el.innerHTML = el.innerHTML + child
+        } else {
+          el.appendChild(child)
+        }
       })
     }
     return el
